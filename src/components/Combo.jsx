@@ -94,7 +94,7 @@ function Combo() {
 
       price: "₹90",
 
-      image: thepla,
+      image: khajurballs,
 
       description:
         "Healthy and nutritious combo with homemade Thepla and energy-rich Khajur Balls.",
