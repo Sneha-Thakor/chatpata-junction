@@ -7,7 +7,6 @@ import panipuri from "../assets/panipuri.JPG";
 import corn from "../assets/corn.jpg";
 import kachori from "../assets/kachori.jpg";
 import chanachur from "../assets/chanachur.jpg";
-import thepla from "../assets/thepla.jpg";
 import khajurballs from "../assets/khajurballs.jpg";
 
 function Combo() {
