@@ -23,7 +23,7 @@ function Combo() {
         "🌽 Corn Chaat"
       ],
 
-      price: "₹45",
+      price: "₹55",
 
       image: panipuri,
 
@@ -114,7 +114,7 @@ function Combo() {
         "🌽 Corn Chaat"
       ],
 
-      price: "₹99",
+      price: "₹120",
 
       badge: "⭐ MOST POPULAR",
 
