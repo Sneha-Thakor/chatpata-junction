@@ -28,15 +28,17 @@ box-sizing:border-box;
 
 .logo{
 
-font-size:30px;
+font-size:28px;
 
 font-weight:bold;
 
 color:#D4AF37;
 
-font-family:Georgia, serif;
+font-family:Georgia,serif;
 
-letter-spacing:2px;
+letter-spacing:1px;
+
+z-index:1001;
 
 }
 
@@ -48,6 +50,10 @@ gap:35px;
 
 list-style:none;
 
+margin:0;
+
+padding:0;
+
 }
 
 .nav-links a{
@@ -58,14 +64,150 @@ color:white;
 
 font-size:18px;
 
-transition:.3s;
-
 font-family:Poppins;
+
+transition:.3s;
 
 }
 
 .nav-links a:hover{
 
 color:#D4AF37;
+
+}
+
+.hamburger{
+
+display:none;
+
+flex-direction:column;
+
+cursor:pointer;
+
+gap:6px;
+
+z-index:1001;
+
+}
+
+.hamburger span{
+
+width:30px;
+
+height:3px;
+
+background:#D4AF37;
+
+transition:.3s;
+
+border-radius:5px;
+
+}
+
+.hamburger.active span:nth-child(1){
+
+transform:rotate(45deg) translate(6px,6px);
+
+}
+
+.hamburger.active span:nth-child(2){
+
+opacity:0;
+
+}
+
+.hamburger.active span:nth-child(3){
+
+transform:rotate(-45deg) translate(7px,-7px);
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.navbar{
+
+padding:18px 35px;
+
+}
+
+.logo{
+
+font-size:24px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hamburger{
+
+display:flex;
+
+}
+
+.nav-links{
+
+position:absolute;
+
+top:100%;
+
+left:0;
+
+width:100%;
+
+background:#111;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:25px;
+
+padding:30px 0;
+
+border-top:2px solid #D4AF37;
+
+max-height:0;
+
+overflow:hidden;
+
+transition:.4s ease;
+
+}
+
+.nav-links.show{
+
+max-height:350px;
+
+}
+
+.nav-links a{
+
+font-size:20px;
+
+}
+
+}
+
+/* Small Mobile */
+
+@media(max-width:480px){
+
+.navbar{
+
+padding:15px 20px;
+
+}
+
+.logo{
+
+font-size:20px;
+
+}
 
 }

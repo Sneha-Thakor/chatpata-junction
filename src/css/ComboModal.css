@@ -287,3 +287,145 @@ font-size:15px;
 }
 
 }
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media(max-width:768px){
+
+.combo-modal{
+
+padding:22px;
+
+max-width:95%;
+
+}
+
+.combo-modal-img{
+
+width:180px;
+
+height:180px;
+
+}
+
+.combo-modal h2{
+
+font-size:28px;
+
+}
+
+.combo-modal-price{
+
+font-size:28px;
+
+}
+
+.combo-modal-desc{
+
+font-size:15px;
+
+}
+
+.combo-includes h3,
+.combo-bestfor h3{
+
+font-size:22px;
+
+}
+
+.combo-includes li,
+.combo-bestfor li{
+
+font-size:16px;
+
+}
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media(max-width:480px){
+
+.combo-modal-overlay{
+
+padding:12px;
+
+}
+
+.combo-modal{
+
+padding:18px;
+
+border-radius:16px;
+
+max-height:90vh;
+
+}
+
+.combo-modal-img{
+
+width:150px;
+
+height:150px;
+
+}
+
+.combo-modal h2{
+
+font-size:22px;
+
+}
+
+.combo-modal-price{
+
+font-size:22px;
+
+}
+
+.combo-modal-badge{
+
+font-size:13px;
+
+padding:7px 14px;
+
+}
+
+.combo-modal-desc{
+
+font-size:14px;
+
+line-height:1.6;
+
+}
+
+.combo-includes h3,
+.combo-bestfor h3{
+
+font-size:20px;
+
+}
+
+.combo-includes li,
+.combo-bestfor li{
+
+font-size:15px;
+
+padding:6px 0;
+
+}
+
+.combo-close-btn{
+
+width:38px;
+
+height:38px;
+
+font-size:18px;
+
+}
+
+}

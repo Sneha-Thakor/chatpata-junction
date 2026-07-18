@@ -3,9 +3,11 @@
 position:fixed;
 
 top:0;
+
 left:0;
 
 width:100%;
+
 height:100%;
 
 background:rgba(0,0,0,.8);
@@ -16,13 +18,23 @@ justify-content:center;
 
 align-items:center;
 
+padding:20px;
+
+box-sizing:border-box;
+
 z-index:999;
 
 }
 
 .modal-box{
 
-width:420px;
+width:100%;
+
+max-width:420px;
+
+max-height:90vh;
+
+overflow-y:auto;
 
 background:#111;
 
@@ -37,6 +49,8 @@ position:relative;
 text-align:center;
 
 animation:popup .3s;
+
+box-sizing:border-box;
 
 }
 
@@ -80,6 +94,8 @@ color:#D4AF37;
 
 margin-bottom:10px;
 
+font-size:30px;
+
 }
 
 .price{
@@ -100,6 +116,8 @@ color:white;
 
 line-height:1.6;
 
+font-size:16px;
+
 }
 
 .modal-box ul{
@@ -119,6 +137,8 @@ text-align:left;
 color:white;
 
 margin:10px 0;
+
+font-size:16px;
 
 }
 
@@ -141,5 +161,113 @@ cursor:pointer;
 border-radius:8px;
 
 font-weight:bold;
+
+transition:.3s;
+
+}
+
+.close-btn:hover{
+
+background:#fff;
+
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media(max-width:768px){
+
+.modal-box{
+
+padding:25px;
+
+max-width:380px;
+
+}
+
+.modal-box img{
+
+height:200px;
+
+}
+
+.modal-box h2{
+
+font-size:26px;
+
+}
+
+.price{
+
+font-size:24px;
+
+}
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media(max-width:480px){
+
+.modal-overlay{
+
+padding:15px;
+
+}
+
+.modal-box{
+
+padding:20px;
+
+border-radius:16px;
+
+max-width:100%;
+
+}
+
+.modal-box img{
+
+height:180px;
+
+}
+
+.modal-box h2{
+
+font-size:22px;
+
+}
+
+.price{
+
+font-size:22px;
+
+}
+
+.modal-box p{
+
+font-size:15px;
+
+}
+
+.modal-box li{
+
+font-size:15px;
+
+}
+
+.close-btn{
+
+top:10px;
+
+right:10px;
+
+padding:6px 10px;
+
+font-size:14px;
+
+}
 
 }

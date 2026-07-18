@@ -99,3 +99,77 @@ font-size:36px;
 }
 
 }
+
+/* ================= Tablet ================= */
+
+@media(max-width:992px){
+
+.satisfaction-section{
+padding:80px 40px;
+}
+
+.satisfaction-section h1{
+font-size:42px;
+}
+
+.satisfaction-subtitle{
+font-size:18px;
+margin-bottom:40px;
+}
+
+}
+
+/* ================= Mobile ================= */
+
+@media(max-width:768px){
+
+.satisfaction-section{
+padding:70px 25px;
+}
+
+.satisfaction-section h1{
+font-size:34px;
+}
+
+.satisfaction-subtitle{
+font-size:16px;
+margin-bottom:30px;
+}
+
+.satisfaction-container{
+grid-template-columns:1fr;
+}
+
+.satisfaction-card{
+max-width:420px;
+margin:auto;
+padding:25px;
+}
+
+.s-icon{
+font-size:45px;
+}
+
+.satisfaction-card h2{
+font-size:34px;
+}
+
+.satisfaction-card p{
+font-size:16px;
+}
+
+}
+
+/* ================= Small Mobile ================= */
+
+@media(max-width:480px){
+
+.satisfaction-section{
+padding:60px 18px;
+}
+
+.satisfaction-section h1{
+font-size:30px;
+}
+
+}

@@ -145,3 +145,147 @@ background:#fff;
 transform:translateY(-3px);
 
 }
+
+/* ===========================
+   Large Laptop
+=========================== */
+
+@media (max-width:1200px){
+
+.combo-section{
+padding:100px 5%;
+}
+
+.combo-section h1{
+font-size:44px;
+}
+
+.combo-grid{
+gap:25px;
+}
+
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width:992px){
+
+.combo-section{
+padding:90px 40px;
+}
+
+.combo-section h1{
+font-size:40px;
+margin-bottom:45px;
+}
+
+.combo-grid{
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.combo-card{
+padding:25px;
+}
+
+.combo-card h2{
+font-size:24px;
+}
+
+.combo-card li{
+font-size:17px;
+}
+
+.combo-card h3{
+font-size:34px;
+}
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+.combo-section{
+padding:70px 25px;
+}
+
+.combo-section h1{
+font-size:34px;
+margin-bottom:35px;
+}
+
+.combo-grid{
+grid-template-columns:1fr;
+}
+
+.combo-card{
+width:100%;
+max-width:420px;
+margin:auto;
+padding:22px;
+}
+
+.combo-card h2{
+font-size:22px;
+}
+
+.combo-card li{
+font-size:16px;
+}
+
+.combo-card h3{
+font-size:30px;
+}
+
+.combo-btn{
+width:100%;
+}
+
+}
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:480px){
+
+.combo-section{
+padding:60px 18px;
+}
+
+.combo-section h1{
+font-size:30px;
+}
+
+.combo-card{
+padding:20px;
+}
+
+.combo-card h2{
+font-size:20px;
+}
+
+.combo-card li{
+font-size:15px;
+}
+
+.combo-card h3{
+font-size:28px;
+}
+
+.badge{
+font-size:12px;
+padding:6px 12px;
+}
+
+.combo-btn{
+padding:14px;
+font-size:15px;
+}
+
+}
