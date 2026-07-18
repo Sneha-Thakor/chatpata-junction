@@ -1,0 +1,185 @@
+.menu-section{
+
+padding:100px 8%;
+
+background:#050505;
+
+}
+
+.menu-section h1{
+
+text-align:center;
+
+color:#D4AF37;
+
+font-size:50px;
+
+margin-bottom:60px;
+
+letter-spacing:2px;
+
+}
+
+/* ========================= */
+/* 3 Cards Per Row */
+/* ========================= */
+
+.menu-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+/* ========================= */
+/* Card */
+/* ========================= */
+
+.menu-card{
+
+background:#111;
+
+border:2px solid #D4AF37;
+
+border-radius:20px;
+
+padding:22px 20px;
+
+text-align:center;
+
+transition:.4s;
+
+cursor:pointer;
+
+overflow:hidden;
+
+min-height:390px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:space-between;
+
+}
+
+.menu-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 35px rgba(212,175,55,.45);
+
+}
+
+/* ========================= */
+/* Image */
+/* ========================= */
+
+.menu-card img{
+
+width:150px;
+
+height:150px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+margin:0 auto 18px;
+
+transition:.4s;
+
+}
+
+.menu-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+/* ========================= */
+/* Title */
+/* ========================= */
+
+.menu-card h3{
+
+color:white;
+
+font-size:24px;
+
+margin-bottom:10px;
+
+}
+
+/* ========================= */
+/* Subtitle */
+/* ========================= */
+
+.menu-card p{
+
+color:#bfbfbf;
+
+margin-bottom:15px;
+
+font-size:16px;
+
+}
+
+/* ========================= */
+/* Price */
+/* ========================= */
+
+.menu-card h2{
+
+color:#D4AF37;
+
+font-size:30px;
+
+}
+
+/* ========================= */
+/* Responsive */
+/* ========================= */
+
+@media(max-width:992px){
+
+.menu-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.menu-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.menu-card{
+
+min-height:360px;
+
+}
+
+.menu-card img{
+
+width:130px;
+
+height:130px;
+
+}
+
+.menu-section h1{
+
+font-size:38px;
+
+}
+
+}
