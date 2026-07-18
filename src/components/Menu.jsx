@@ -62,7 +62,7 @@ function Menu() {
       image: corn,
       title: "Corn Chaat",
       subtitle: "Fresh & Healthy",
-      price: "₹30",
+      price: "₹40",
       description: "Sweet corn mixed with butter, lemon and Indian spices.",
       features: [
         "Healthy",
